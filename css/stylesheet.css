@@ -192,3 +192,67 @@ body {
 	vertical-align: middle;
 }
 
+.mediaBox
+{
+	margin-top: 100px;
+	width: 100%;
+}
+
+.screenshots
+{
+	display: table;	
+}
+
+
+
+td img
+{
+
+		background: rgba(255,255,255,0.2);
+	 -webkit-transition: all 0.25s;
+}
+
+td img:hover
+{
+	cursor: pointer;
+	opacity: 0.8;
+	 -webkit-transition: all 0.25s;
+}
+
+
+table {
+  width: 100%;
+}
+td {
+  width: 25%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: ;
+}
+
+
+a
+{
+	color:#FFF+;
+}
+
+a:hover
+{
+	color:#000;
+}
+
+a:visited
+{
+	color:#fff;
+}
