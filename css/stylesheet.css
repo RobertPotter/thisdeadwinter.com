@@ -194,8 +194,10 @@ body {
 
 .mediaBox
 {
+	border-top:1px solid #FFF;	
+	width: 80%;
+	margin:0 auto;
 	margin-top: 100px;
-	width: 100%;
 }
 
 
@@ -223,11 +225,13 @@ table {
 td {
   width: 25%;
   position: relative;
+    overflow: hidden;
 }
 td:after {
   content: '';
   display: block;
   margin-top: 100%;
+    overflow: hidden;
 }
 td .content {
   position: absolute;
@@ -235,20 +239,18 @@ td .content {
   bottom: 0;
   left: 0;
   right: 0;
-  background: ;
+  
+  overflow: hidden;
 }
 
 
-.contact
+.contactContainer
 {
-	width: 80%;
-	top: 700px;
-	left: 0;
-	right:0;
+	width: 80%;	
 	border-top:1px solid #FFF;
 	z-index: 50;
-	position: absolute;
 	margin: 0 auto;
+	margin-top: 100px;
 }
 
 
