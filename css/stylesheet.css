@@ -198,12 +198,6 @@ body {
 	width: 100%;
 }
 
-.screenshots
-{
-	display: table;	
-}
-
-
 
 td img
 {
@@ -245,12 +239,29 @@ td .content {
 }
 
 
+.contact
+{
+	width: 80%;
+	top: 700px;
+	left: 0;
+	right:0;
+	border-top:1px solid #FFF;
+	z-index: 50;
+	position: absolute;
+	margin: 0 auto;
+}
+
+
 a
 {
 	color:#FFF;
 }
 
 a:hover
+{
+	color:#fff;
+}
+a:active
 {
 	color:#000;
 }
