@@ -93,6 +93,18 @@ body {
   }
 }
 
+@media only screen and (max-width: 405px) {
+  .layer-2 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 295px) {
+  .layer-2 {
+    font-size: 35px;
+  }
+}
+
   .layer-3 {
   	height: 1080px;
     top: -300px;
@@ -107,7 +119,20 @@ body {
   background: #1c2a3d;
   width: 100%;
   min-height: 1500px;
+  overflow: hidden;
+  
 }
+
+.innerContent
+	{
+		width:100%;
+		overflow: hidden;
+		border-top:10px solid #FFF;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 1920px;
+	}
+
   .content h1 {
     color: #fff;
     font-size: 2em;
@@ -124,5 +149,46 @@ body {
     font-size: 1.5em;
     text-align: center;
     margin-top: 40px;
-
   }
+
+  header {
+    width: 100%;
+    height: 30px;
+    background: ;
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    border-bottom: 1px solid rgba(255,255,255,0) ;
+}
+
+.navOption
+{
+	float: left;
+	padding-left:2%;
+	padding-right: 2%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+	
+	text-align: center;
+	font-size: 1em;
+	margin-left:5px;
+	margin-top: 5px;
+	vertical-align: middle;
+	display: table;
+	-webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.navOption:hover
+{
+	cursor: pointer;
+	background: rgba(255,255,255,0.2);
+	 -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.navText
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
